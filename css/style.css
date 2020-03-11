@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{}
+img{
+    max-width: 100%;
+}
+header{
+    background: #5d5d5f47;
+    box-shadow: 2px 4px 11px #0e0e0e;
+}
+nav{}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-shadow: 9px 6px 3px #0000008a;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+nav ul li a img{
+    width: 114px;
+}
+
+.form-section{
+    padding: 100px 0;
+    background-image: url(../images/376.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f1efeff0;
+    background-blend-mode: overlay;
+}
+.form-box{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-style: italic;
+    text-shadow: 5px 5px 4px #000000ab;
+    text-align: center;
+    
+}
+p{
+    font-size: 20px;
+    font-style: oblique;
+    text-shadow: 4px 5px 5px #1b1b1982;
+}
+
+form{
+    text-align: left;
+    margin-top: 40px;
+}
+.input{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    color: black;
+}
+label{
+	font-size: 24px;
+    font-style: italic;
+    /* padding: 10px; */
+    margin-right: 20px;
+}
+span{
+	display: block;
+	font-style: italic;
+}
+
+label b{
+	font-size: 20px;
+	display: block;
+	margin-top: 20px;
+	font-style: italic;
+
+}
+input[type="submit"]{
+
+	display: block;
+	padding: 10px 30px;
+	font-size: 15px;
+	background: grey;
+	border: 5px solid grey;
+	margin-top: 25px;
+	cursor: progress;
+
+}
+input[type="submit"]:hover{
+	background: transparent;
+}
